@@ -44,7 +44,9 @@
     <module>maven/parent</module>
     <module>maven/aem-dependencies/5.5.0</module>
     <module>maven/aem-dependencies/6.0.0</module>
+    <!-- do not include in main build due to non-public dependencies
     <module>maven/aem-dependencies/6.1.0</module>
+    -->
     <module>maven/aem-global-parent</module>
     <module>maven/global-build-tools</module>
     <module>maven/global-build-tools-test</module>
